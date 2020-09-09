@@ -1,0 +1,23 @@
+green:
+  enabled: true
+  image: nginx
+  version: 1.19.2
+
+blue:
+  enabled: true
+  image: nginx
+  version: 1.19.1
+
+productionSlot: green
+
+replicaCount: 1
+
+ingress:
+  hostname: domain.com
+  stagehostname: beta.domain.com
+
+
+
+index: hello world
+index_green: hello world green
+index_blue: hello world blue
