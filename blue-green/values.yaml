@@ -13,8 +13,8 @@ productionSlot: green
 replicaCount: 1
 
 ingress:
-  hostname: domain.com
-  stagehostname: beta.domain.com
+  hostname: demo-tp.arch-travel-vpc-dl-clus-a792dcf5b234b1b0f6b2c5d50c6dd863-0000.us-south.containers.appdomain.cloud
+  stagehostname: beta.demo-tp.arch-travel-vpc-dl-clus-a792dcf5b234b1b0f6b2c5d50c6dd863-0000.us-south.containers.appdomain.cloud
 
 
 
