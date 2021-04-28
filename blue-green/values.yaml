@@ -1,14 +1,14 @@
 green:
-  enabled: true
+  enabled: false
   image: nginx
   version: 1.19.2
 
 blue:
-  enabled: true
+  enabled: false
   image: nginx
   version: 1.19.1
 
-productionSlot: green
+productionSlot: blue
 
 replicaCount: 1
 
