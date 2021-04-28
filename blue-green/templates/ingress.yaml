@@ -16,7 +16,7 @@ spec:
           backend:
             serviceName: {{ $fullName }}-service-prod
             servicePort: http
-  - host: {{ .Values.ingress.stagehostname }}
+  - host: {{ .Values.ingress.betahostname }}
     http:
       paths:
         - path: /
