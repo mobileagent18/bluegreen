@@ -8,7 +8,7 @@ blue:
   image: nginx
   version: 1.19.1
 
-productionSlot: green
+productionSlot: blue
 
 replicaCount: 1
 
